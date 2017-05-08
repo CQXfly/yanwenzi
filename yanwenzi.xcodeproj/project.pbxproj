@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C29CE22A1EC0AEF700BB505C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29CE2291EC0AEF700BB505C /* AppDelegate.swift */; };
+		C29CE22C1EC0AEF700BB505C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29CE22B1EC0AEF700BB505C /* ViewController.swift */; };
+		C29CE22F1EC0AEF700BB505C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29CE22D1EC0AEF700BB505C /* Main.storyboard */; };
+		C29CE2311EC0AEF700BB505C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29CE2301EC0AEF700BB505C /* Assets.xcassets */; };
+		C29CE2341EC0AEF700BB505C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29CE2321EC0AEF700BB505C /* LaunchScreen.storyboard */; };
+		C29CE23F1EC0AEF700BB505C /* yanwenziTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29CE23E1EC0AEF700BB505C /* yanwenziTests.swift */; };
+		C29CE24A1EC0AEF700BB505C /* yanwenziUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29CE2491EC0AEF700BB505C /* yanwenziUITests.swift */; };
+		C406D167338917DF93213AF3 /* Pods_yanwenziUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6DB3E37BE45B503429BCB9 /* Pods_yanwenziUITests.framework */; };
+		CCD0884C0D767E0D43A0D995 /* Pods_yanwenziTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BECE9623BEBFA6879667B4 /* Pods_yanwenziTests.framework */; };
+		D5A492AF3ACD5471E6DBE6E9 /* Pods_yanwenzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1708157802F22DF3D58E4D /* Pods_yanwenzi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C29CE23B1EC0AEF700BB505C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29CE21E1EC0AEF700BB505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29CE2251EC0AEF700BB505C;
+			remoteInfo = yanwenzi;
+		};
+		C29CE2461EC0AEF700BB505C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29CE21E1EC0AEF700BB505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29CE2251EC0AEF700BB505C;
+			remoteInfo = yanwenzi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1708157802F22DF3D58E4D /* Pods_yanwenzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanwenzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1648BC2CEF0A579EF25094D7 /* Pods-yanwenzi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenzi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenzi/Pods-yanwenzi.debug.xcconfig"; sourceTree = "<group>"; };
+		1727CD3299322F337E5819A5 /* Pods-yanwenziUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenziUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenziUITests/Pods-yanwenziUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E508C3CE38F2B1C9B8B674E /* Pods-yanwenziUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenziUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenziUITests/Pods-yanwenziUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42FE5AE3FFB3A94F900A4866 /* Pods-yanwenzi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenzi.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenzi/Pods-yanwenzi.release.xcconfig"; sourceTree = "<group>"; };
+		6A6DB3E37BE45B503429BCB9 /* Pods_yanwenziUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanwenziUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A838E91A57C699BE54AF067E /* Pods-yanwenziTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenziTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenziTests/Pods-yanwenziTests.release.xcconfig"; sourceTree = "<group>"; };
+		C29CE2261EC0AEF700BB505C /* yanwenzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yanwenzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29CE2291EC0AEF700BB505C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C29CE22B1EC0AEF700BB505C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C29CE22E1EC0AEF700BB505C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C29CE2301EC0AEF700BB505C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C29CE2331EC0AEF700BB505C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C29CE2351EC0AEF700BB505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29CE23A1EC0AEF700BB505C /* yanwenziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yanwenziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29CE23E1EC0AEF700BB505C /* yanwenziTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yanwenziTests.swift; sourceTree = "<group>"; };
+		C29CE2401EC0AEF700BB505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29CE2451EC0AEF700BB505C /* yanwenziUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yanwenziUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29CE2491EC0AEF700BB505C /* yanwenziUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yanwenziUITests.swift; sourceTree = "<group>"; };
+		C29CE24B1EC0AEF700BB505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE7B456873F2DA1D8538115 /* Pods-yanwenziTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenziTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenziTests/Pods-yanwenziTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0BECE9623BEBFA6879667B4 /* Pods_yanwenziTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanwenziTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C29CE2231EC0AEF700BB505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A492AF3ACD5471E6DBE6E9 /* Pods_yanwenzi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29CE2371EC0AEF700BB505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD0884C0D767E0D43A0D995 /* Pods_yanwenziTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29CE2421EC0AEF700BB505C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C406D167338917DF93213AF3 /* Pods_yanwenziUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C29CE21D1EC0AEF700BB505C = {
+			isa = PBXGroup;
+			children = (
+				C29CE2281EC0AEF700BB505C /* yanwenzi */,
+				C29CE23D1EC0AEF700BB505C /* yanwenziTests */,
+				C29CE2481EC0AEF700BB505C /* yanwenziUITests */,
+				C29CE2271EC0AEF700BB505C /* Products */,
+				E469E42A7E40D398F1E8866C /* Pods */,
+				FEDC49563C8CFAB44AB4298E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C29CE2271EC0AEF700BB505C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C29CE2261EC0AEF700BB505C /* yanwenzi.app */,
+				C29CE23A1EC0AEF700BB505C /* yanwenziTests.xctest */,
+				C29CE2451EC0AEF700BB505C /* yanwenziUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C29CE2281EC0AEF700BB505C /* yanwenzi */ = {
+			isa = PBXGroup;
+			children = (
+				C29CE2291EC0AEF700BB505C /* AppDelegate.swift */,
+				C29CE22B1EC0AEF700BB505C /* ViewController.swift */,
+				C29CE22D1EC0AEF700BB505C /* Main.storyboard */,
+				C29CE2301EC0AEF700BB505C /* Assets.xcassets */,
+				C29CE2321EC0AEF700BB505C /* LaunchScreen.storyboard */,
+				C29CE2351EC0AEF700BB505C /* Info.plist */,
+			);
+			path = yanwenzi;
+			sourceTree = "<group>";
+		};
+		C29CE23D1EC0AEF700BB505C /* yanwenziTests */ = {
+			isa = PBXGroup;
+			children = (
+				C29CE23E1EC0AEF700BB505C /* yanwenziTests.swift */,
+				C29CE2401EC0AEF700BB505C /* Info.plist */,
+			);
+			path = yanwenziTests;
+			sourceTree = "<group>";
+		};
+		C29CE2481EC0AEF700BB505C /* yanwenziUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C29CE2491EC0AEF700BB505C /* yanwenziUITests.swift */,
+				C29CE24B1EC0AEF700BB505C /* Info.plist */,
+			);
+			path = yanwenziUITests;
+			sourceTree = "<group>";
+		};
+		E469E42A7E40D398F1E8866C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1648BC2CEF0A579EF25094D7 /* Pods-yanwenzi.debug.xcconfig */,
+				42FE5AE3FFB3A94F900A4866 /* Pods-yanwenzi.release.xcconfig */,
+				DAE7B456873F2DA1D8538115 /* Pods-yanwenziTests.debug.xcconfig */,
+				A838E91A57C699BE54AF067E /* Pods-yanwenziTests.release.xcconfig */,
+				1727CD3299322F337E5819A5 /* Pods-yanwenziUITests.debug.xcconfig */,
+				3E508C3CE38F2B1C9B8B674E /* Pods-yanwenziUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEDC49563C8CFAB44AB4298E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C1708157802F22DF3D58E4D /* Pods_yanwenzi.framework */,
+				E0BECE9623BEBFA6879667B4 /* Pods_yanwenziTests.framework */,
+				6A6DB3E37BE45B503429BCB9 /* Pods_yanwenziUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C29CE2251EC0AEF700BB505C /* yanwenzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29CE24E1EC0AEF700BB505C /* Build configuration list for PBXNativeTarget "yanwenzi" */;
+			buildPhases = (
+				B3699A970A42EE21E72C6DEE /* [CP] Check Pods Manifest.lock */,
+				C29CE2221EC0AEF700BB505C /* Sources */,
+				C29CE2231EC0AEF700BB505C /* Frameworks */,
+				C29CE2241EC0AEF700BB505C /* Resources */,
+				022AC4466A855CC4A7410943 /* [CP] Embed Pods Frameworks */,
+				1E4C3D5A1319808B60D37FF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yanwenzi;
+			productName = yanwenzi;
+			productReference = C29CE2261EC0AEF700BB505C /* yanwenzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C29CE2391EC0AEF700BB505C /* yanwenziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29CE2511EC0AEF700BB505C /* Build configuration list for PBXNativeTarget "yanwenziTests" */;
+			buildPhases = (
+				55418BB5EB42C2BEE82C94CB /* [CP] Check Pods Manifest.lock */,
+				C29CE2361EC0AEF700BB505C /* Sources */,
+				C29CE2371EC0AEF700BB505C /* Frameworks */,
+				C29CE2381EC0AEF700BB505C /* Resources */,
+				09034DE99BFE3408B0BA417B /* [CP] Embed Pods Frameworks */,
+				D6E4FE05985F498375D0AD2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C29CE23C1EC0AEF700BB505C /* PBXTargetDependency */,
+			);
+			name = yanwenziTests;
+			productName = yanwenziTests;
+			productReference = C29CE23A1EC0AEF700BB505C /* yanwenziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C29CE2441EC0AEF700BB505C /* yanwenziUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29CE2541EC0AEF700BB505C /* Build configuration list for PBXNativeTarget "yanwenziUITests" */;
+			buildPhases = (
+				86C22AE3EC2F5B3506B5D99D /* [CP] Check Pods Manifest.lock */,
+				C29CE2411EC0AEF700BB505C /* Sources */,
+				C29CE2421EC0AEF700BB505C /* Frameworks */,
+				C29CE2431EC0AEF700BB505C /* Resources */,
+				D2517C394BA37C5C485DE284 /* [CP] Embed Pods Frameworks */,
+				FE04D051B5A14BD5AB64354B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C29CE2471EC0AEF700BB505C /* PBXTargetDependency */,
+			);
+			name = yanwenziUITests;
+			productName = yanwenziUITests;
+			productReference = C29CE2451EC0AEF700BB505C /* yanwenziUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C29CE21E1EC0AEF700BB505C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "崇庆旭";
+				TargetAttributes = {
+					C29CE2251EC0AEF700BB505C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5G97LTLJUY;
+						ProvisioningStyle = Automatic;
+					};
+					C29CE2391EC0AEF700BB505C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5G97LTLJUY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C29CE2251EC0AEF700BB505C;
+					};
+					C29CE2441EC0AEF700BB505C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5G97LTLJUY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C29CE2251EC0AEF700BB505C;
+					};
+				};
+			};
+			buildConfigurationList = C29CE2211EC0AEF700BB505C /* Build configuration list for PBXProject "yanwenzi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C29CE21D1EC0AEF700BB505C;
+			productRefGroup = C29CE2271EC0AEF700BB505C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C29CE2251EC0AEF700BB505C /* yanwenzi */,
+				C29CE2391EC0AEF700BB505C /* yanwenziTests */,
+				C29CE2441EC0AEF700BB505C /* yanwenziUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C29CE2241EC0AEF700BB505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29CE2341EC0AEF700BB505C /* LaunchScreen.storyboard in Resources */,
+				C29CE2311EC0AEF700BB505C /* Assets.xcassets in Resources */,
+				C29CE22F1EC0AEF700BB505C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29CE2381EC0AEF700BB505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29CE2431EC0AEF700BB505C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022AC4466A855CC4A7410943 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanwenzi/Pods-yanwenzi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09034DE99BFE3408B0BA417B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanwenziTests/Pods-yanwenziTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E4C3D5A1319808B60D37FF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanwenzi/Pods-yanwenzi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55418BB5EB42C2BEE82C94CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86C22AE3EC2F5B3506B5D99D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3699A970A42EE21E72C6DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2517C394BA37C5C485DE284 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanwenziUITests/Pods-yanwenziUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E4FE05985F498375D0AD2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanwenziTests/Pods-yanwenziTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE04D051B5A14BD5AB64354B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanwenziUITests/Pods-yanwenziUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29CE2221EC0AEF700BB505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29CE22C1EC0AEF700BB505C /* ViewController.swift in Sources */,
+				C29CE22A1EC0AEF700BB505C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29CE2361EC0AEF700BB505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29CE23F1EC0AEF700BB505C /* yanwenziTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29CE2411EC0AEF700BB505C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29CE24A1EC0AEF700BB505C /* yanwenziUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C29CE23C1EC0AEF700BB505C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C29CE2251EC0AEF700BB505C /* yanwenzi */;
+			targetProxy = C29CE23B1EC0AEF700BB505C /* PBXContainerItemProxy */;
+		};
+		C29CE2471EC0AEF700BB505C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C29CE2251EC0AEF700BB505C /* yanwenzi */;
+			targetProxy = C29CE2461EC0AEF700BB505C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C29CE22D1EC0AEF700BB505C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29CE22E1EC0AEF700BB505C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C29CE2321EC0AEF700BB505C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29CE2331EC0AEF700BB505C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C29CE24C1EC0AEF700BB505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C29CE24D1EC0AEF700BB505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C29CE24F1EC0AEF700BB505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1648BC2CEF0A579EF25094D7 /* Pods-yanwenzi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanwenzi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C29CE2501EC0AEF700BB505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FE5AE3FFB3A94F900A4866 /* Pods-yanwenzi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanwenzi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C29CE2521EC0AEF700BB505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE7B456873F2DA1D8538115 /* Pods-yanwenziTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanwenziTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yanwenzi.app/yanwenzi";
+			};
+			name = Debug;
+		};
+		C29CE2531EC0AEF700BB505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A838E91A57C699BE54AF067E /* Pods-yanwenziTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanwenziTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yanwenzi.app/yanwenzi";
+			};
+			name = Release;
+		};
+		C29CE2551EC0AEF700BB505C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1727CD3299322F337E5819A5 /* Pods-yanwenziUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanwenziUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yanwenzi;
+			};
+			name = Debug;
+		};
+		C29CE2561EC0AEF700BB505C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E508C3CE38F2B1C9B8B674E /* Pods-yanwenziUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanwenziUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yanwenzi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C29CE2211EC0AEF700BB505C /* Build configuration list for PBXProject "yanwenzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29CE24C1EC0AEF700BB505C /* Debug */,
+				C29CE24D1EC0AEF700BB505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29CE24E1EC0AEF700BB505C /* Build configuration list for PBXNativeTarget "yanwenzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29CE24F1EC0AEF700BB505C /* Debug */,
+				C29CE2501EC0AEF700BB505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C29CE2511EC0AEF700BB505C /* Build configuration list for PBXNativeTarget "yanwenziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29CE2521EC0AEF700BB505C /* Debug */,
+				C29CE2531EC0AEF700BB505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C29CE2541EC0AEF700BB505C /* Build configuration list for PBXNativeTarget "yanwenziUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29CE2551EC0AEF700BB505C /* Debug */,
+				C29CE2561EC0AEF700BB505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C29CE21E1EC0AEF700BB505C /* Project object */;
+}

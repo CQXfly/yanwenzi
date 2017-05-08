@@ -1,0 +1,6 @@
+framework module Pods_yanwenzi {
+  umbrella header "Pods-yanwenzi-umbrella.h"
+
+  export *
+  module * { export * }
+}
