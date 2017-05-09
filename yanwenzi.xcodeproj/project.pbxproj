@@ -14,6 +14,12 @@
 		C29CE2341EC0AEF700BB505C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29CE2321EC0AEF700BB505C /* LaunchScreen.storyboard */; };
 		C29CE23F1EC0AEF700BB505C /* yanwenziTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29CE23E1EC0AEF700BB505C /* yanwenziTests.swift */; };
 		C29CE24A1EC0AEF700BB505C /* yanwenziUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29CE2491EC0AEF700BB505C /* yanwenziUITests.swift */; };
+		C2C0F10B1EC1ADE500017768 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C0F10A1EC1ADE500017768 /* KeyboardViewController.swift */; };
+		C2C0F10F1EC1ADE500017768 /* yanInput.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2C0F1081EC1ADE500017768 /* yanInput.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2C0F11A1EC1AE1B00017768 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C0F1191EC1AE1B00017768 /* NotificationCenter.framework */; };
+		C2C0F11D1EC1AE1B00017768 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C0F11C1EC1AE1B00017768 /* TodayViewController.swift */; };
+		C2C0F1201EC1AE1B00017768 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C0F11E1EC1AE1B00017768 /* MainInterface.storyboard */; };
+		C2C0F1241EC1AE1B00017768 /* yanToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2C0F1181EC1AE1B00017768 /* yanToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C406D167338917DF93213AF3 /* Pods_yanwenziUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6DB3E37BE45B503429BCB9 /* Pods_yanwenziUITests.framework */; };
 		CCD0884C0D767E0D43A0D995 /* Pods_yanwenziTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BECE9623BEBFA6879667B4 /* Pods_yanwenziTests.framework */; };
 		D5A492AF3ACD5471E6DBE6E9 /* Pods_yanwenzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1708157802F22DF3D58E4D /* Pods_yanwenzi.framework */; };
@@ -34,7 +40,36 @@
 			remoteGlobalIDString = C29CE2251EC0AEF700BB505C;
 			remoteInfo = yanwenzi;
 		};
+		C2C0F10D1EC1ADE500017768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29CE21E1EC0AEF700BB505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C0F1071EC1ADE500017768;
+			remoteInfo = yanInput;
+		};
+		C2C0F1221EC1AE1B00017768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29CE21E1EC0AEF700BB505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C0F1171EC1AE1B00017768;
+			remoteInfo = yanToday;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2C0F1131EC1ADE500017768 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C2C0F10F1EC1ADE500017768 /* yanInput.appex in Embed App Extensions */,
+				C2C0F1241EC1AE1B00017768 /* yanToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C1708157802F22DF3D58E4D /* Pods_yanwenzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanwenzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +92,14 @@
 		C29CE2451EC0AEF700BB505C /* yanwenziUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yanwenziUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29CE2491EC0AEF700BB505C /* yanwenziUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yanwenziUITests.swift; sourceTree = "<group>"; };
 		C29CE24B1EC0AEF700BB505C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C0F1081EC1ADE500017768 /* yanInput.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = yanInput.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C0F10A1EC1ADE500017768 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		C2C0F10C1EC1ADE500017768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C0F1181EC1AE1B00017768 /* yanToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = yanToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C0F1191EC1AE1B00017768 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		C2C0F11C1EC1AE1B00017768 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		C2C0F11F1EC1AE1B00017768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C2C0F1211EC1AE1B00017768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE7B456873F2DA1D8538115 /* Pods-yanwenziTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenziTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenziTests/Pods-yanwenziTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0BECE9623BEBFA6879667B4 /* Pods_yanwenziTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanwenziTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,6 +129,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2C0F1051EC1ADE500017768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C0F1151EC1AE1B00017768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C0F11A1EC1AE1B00017768 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,6 +153,8 @@
 				C29CE2281EC0AEF700BB505C /* yanwenzi */,
 				C29CE23D1EC0AEF700BB505C /* yanwenziTests */,
 				C29CE2481EC0AEF700BB505C /* yanwenziUITests */,
+				C2C0F1091EC1ADE500017768 /* yanInput */,
+				C2C0F11B1EC1AE1B00017768 /* yanToday */,
 				C29CE2271EC0AEF700BB505C /* Products */,
 				E469E42A7E40D398F1E8866C /* Pods */,
 				FEDC49563C8CFAB44AB4298E /* Frameworks */,
@@ -107,6 +167,8 @@
 				C29CE2261EC0AEF700BB505C /* yanwenzi.app */,
 				C29CE23A1EC0AEF700BB505C /* yanwenziTests.xctest */,
 				C29CE2451EC0AEF700BB505C /* yanwenziUITests.xctest */,
+				C2C0F1081EC1ADE500017768 /* yanInput.appex */,
+				C2C0F1181EC1AE1B00017768 /* yanToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +204,25 @@
 			path = yanwenziUITests;
 			sourceTree = "<group>";
 		};
+		C2C0F1091EC1ADE500017768 /* yanInput */ = {
+			isa = PBXGroup;
+			children = (
+				C2C0F10A1EC1ADE500017768 /* KeyboardViewController.swift */,
+				C2C0F10C1EC1ADE500017768 /* Info.plist */,
+			);
+			path = yanInput;
+			sourceTree = "<group>";
+		};
+		C2C0F11B1EC1AE1B00017768 /* yanToday */ = {
+			isa = PBXGroup;
+			children = (
+				C2C0F11C1EC1AE1B00017768 /* TodayViewController.swift */,
+				C2C0F11E1EC1AE1B00017768 /* MainInterface.storyboard */,
+				C2C0F1211EC1AE1B00017768 /* Info.plist */,
+			);
+			path = yanToday;
+			sourceTree = "<group>";
+		};
 		E469E42A7E40D398F1E8866C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +242,7 @@
 				0C1708157802F22DF3D58E4D /* Pods_yanwenzi.framework */,
 				E0BECE9623BEBFA6879667B4 /* Pods_yanwenziTests.framework */,
 				6A6DB3E37BE45B503429BCB9 /* Pods_yanwenziUITests.framework */,
+				C2C0F1191EC1AE1B00017768 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,10 +260,13 @@
 				C29CE2241EC0AEF700BB505C /* Resources */,
 				022AC4466A855CC4A7410943 /* [CP] Embed Pods Frameworks */,
 				1E4C3D5A1319808B60D37FF0 /* [CP] Copy Pods Resources */,
+				C2C0F1131EC1ADE500017768 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C2C0F10E1EC1ADE500017768 /* PBXTargetDependency */,
+				C2C0F1231EC1AE1B00017768 /* PBXTargetDependency */,
 			);
 			name = yanwenzi;
 			productName = yanwenzi;
@@ -230,6 +315,40 @@
 			productReference = C29CE2451EC0AEF700BB505C /* yanwenziUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C2C0F1071EC1ADE500017768 /* yanInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C0F1121EC1ADE500017768 /* Build configuration list for PBXNativeTarget "yanInput" */;
+			buildPhases = (
+				C2C0F1041EC1ADE500017768 /* Sources */,
+				C2C0F1051EC1ADE500017768 /* Frameworks */,
+				C2C0F1061EC1ADE500017768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yanInput;
+			productName = yanInput;
+			productReference = C2C0F1081EC1ADE500017768 /* yanInput.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C2C0F1171EC1AE1B00017768 /* yanToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C0F1251EC1AE1B00017768 /* Build configuration list for PBXNativeTarget "yanToday" */;
+			buildPhases = (
+				C2C0F1141EC1AE1B00017768 /* Sources */,
+				C2C0F1151EC1AE1B00017768 /* Frameworks */,
+				C2C0F1161EC1AE1B00017768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yanToday;
+			productName = yanToday;
+			productReference = C2C0F1181EC1AE1B00017768 /* yanToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -257,6 +376,16 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = C29CE2251EC0AEF700BB505C;
 					};
+					C2C0F1071EC1ADE500017768 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5G97LTLJUY;
+						ProvisioningStyle = Automatic;
+					};
+					C2C0F1171EC1AE1B00017768 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5G97LTLJUY;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = C29CE2211EC0AEF700BB505C /* Build configuration list for PBXProject "yanwenzi" */;
@@ -275,6 +404,8 @@
 				C29CE2251EC0AEF700BB505C /* yanwenzi */,
 				C29CE2391EC0AEF700BB505C /* yanwenziTests */,
 				C29CE2441EC0AEF700BB505C /* yanwenziUITests */,
+				C2C0F1071EC1ADE500017768 /* yanInput */,
+				C2C0F1171EC1AE1B00017768 /* yanToday */,
 			);
 		};
 /* End PBXProject section */
@@ -301,6 +432,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C0F1061EC1ADE500017768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C0F1161EC1AE1B00017768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C0F1201EC1AE1B00017768 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +616,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2C0F1041EC1ADE500017768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C0F10B1EC1ADE500017768 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C0F1141EC1AE1B00017768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C0F11D1EC1AE1B00017768 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -482,6 +644,16 @@
 			isa = PBXTargetDependency;
 			target = C29CE2251EC0AEF700BB505C /* yanwenzi */;
 			targetProxy = C29CE2461EC0AEF700BB505C /* PBXContainerItemProxy */;
+		};
+		C2C0F10E1EC1ADE500017768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2C0F1071EC1ADE500017768 /* yanInput */;
+			targetProxy = C2C0F10D1EC1ADE500017768 /* PBXContainerItemProxy */;
+		};
+		C2C0F1231EC1AE1B00017768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2C0F1171EC1AE1B00017768 /* yanToday */;
+			targetProxy = C2C0F1221EC1AE1B00017768 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -500,6 +672,14 @@
 				C29CE2331EC0AEF700BB505C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C2C0F11E1EC1AE1B00017768 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C0F11F1EC1AE1B00017768 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -604,6 +784,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1648BC2CEF0A579EF25094D7 /* Pods-yanwenzi.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5G97LTLJUY;
 				INFOPLIST_FILE = yanwenzi/Info.plist;
@@ -618,6 +799,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42FE5AE3FFB3A94F900A4866 /* Pods-yanwenzi.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5G97LTLJUY;
 				INFOPLIST_FILE = yanwenzi/Info.plist;
@@ -690,6 +872,58 @@
 			};
 			name = Release;
 		};
+		C2C0F1101EC1ADE500017768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenzi.yanInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C2C0F1111EC1ADE500017768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenzi.yanInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C2C0F1261EC1AE1B00017768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenzi.yanToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C2C0F1271EC1AE1B00017768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = yanToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.yanwenzi.yanToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -709,6 +943,7 @@
 				C29CE2501EC0AEF700BB505C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C29CE2511EC0AEF700BB505C /* Build configuration list for PBXNativeTarget "yanwenziTests" */ = {
 			isa = XCConfigurationList;
@@ -717,12 +952,30 @@
 				C29CE2531EC0AEF700BB505C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C29CE2541EC0AEF700BB505C /* Build configuration list for PBXNativeTarget "yanwenziUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C29CE2551EC0AEF700BB505C /* Debug */,
 				C29CE2561EC0AEF700BB505C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C0F1121EC1ADE500017768 /* Build configuration list for PBXNativeTarget "yanInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C0F1101EC1ADE500017768 /* Debug */,
+				C2C0F1111EC1ADE500017768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2C0F1251EC1AE1B00017768 /* Build configuration list for PBXNativeTarget "yanToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C0F1261EC1AE1B00017768 /* Debug */,
+				C2C0F1271EC1AE1B00017768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>yanInput.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>yanToday.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>yanwenzi.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>C29CE2441EC0AEF700BB505C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2C0F1071EC1ADE500017768</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2C0F1171EC1AE1B00017768</key>
 		<dict>
 			<key>primary</key>
 			<true/>
