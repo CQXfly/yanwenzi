@@ -1,14 +1,19 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'yanwenzi' do
-    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-    use_frameworks!
+
+use_frameworks!
+def mypods
     pod 'Alamofire'
     pod 'SnapKit'
     pod 'RxSwift'
+end
+    
+target 'yanwenzi' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+
     # Pods for yanwenzi
- 
+    mypods
  	
   target 'yanwenziTests' do
     inherit! :search_paths
@@ -20,4 +25,18 @@ target 'yanwenzi' do
     # Pods for testing
   end
 end
+
+target 'YANKit' do
+    mypods
+end
+
+target 'yanInput' do
+    mypods
+end
+
+target 'yanToday' do
+    mypods
+end
+
+
 

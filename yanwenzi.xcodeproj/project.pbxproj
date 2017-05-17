@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8F17D7546981A80AF6CB969 /* Pods_yanToday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1156EA5D89B9FD59BF98722C /* Pods_yanToday.framework */; };
 		C29CE22A1EC0AEF700BB505C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29CE2291EC0AEF700BB505C /* AppDelegate.swift */; };
 		C29CE22C1EC0AEF700BB505C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29CE22B1EC0AEF700BB505C /* ViewController.swift */; };
 		C29CE22F1EC0AEF700BB505C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29CE22D1EC0AEF700BB505C /* Main.storyboard */; };
@@ -20,9 +21,17 @@
 		C2C0F11D1EC1AE1B00017768 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C0F11C1EC1AE1B00017768 /* TodayViewController.swift */; };
 		C2C0F1201EC1AE1B00017768 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C0F11E1EC1AE1B00017768 /* MainInterface.storyboard */; };
 		C2C0F1241EC1AE1B00017768 /* yanToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2C0F1181EC1AE1B00017768 /* yanToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2F21F8D1ECC1F83000FCDB9 /* YANKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F21F841ECC1F83000FCDB9 /* YANKit.framework */; };
+		C2F21F941ECC1F83000FCDB9 /* YANKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F21F931ECC1F83000FCDB9 /* YANKitTests.m */; };
+		C2F21F961ECC1F83000FCDB9 /* YANKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F21F861ECC1F83000FCDB9 /* YANKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2F21F991ECC1F83000FCDB9 /* YANKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F21F841ECC1F83000FCDB9 /* YANKit.framework */; };
+		C2F21F9A1ECC1F83000FCDB9 /* YANKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2F21F841ECC1F83000FCDB9 /* YANKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C2F21FA31ECC1FBE000FCDB9 /* YanNetKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F21FA21ECC1FBE000FCDB9 /* YanNetKit.swift */; };
 		C406D167338917DF93213AF3 /* Pods_yanwenziUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6DB3E37BE45B503429BCB9 /* Pods_yanwenziUITests.framework */; };
 		CCD0884C0D767E0D43A0D995 /* Pods_yanwenziTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BECE9623BEBFA6879667B4 /* Pods_yanwenziTests.framework */; };
 		D5A492AF3ACD5471E6DBE6E9 /* Pods_yanwenzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1708157802F22DF3D58E4D /* Pods_yanwenzi.framework */; };
+		D73EF2CD5A59685E450ED008 /* Pods_YANKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D6A1561CF1106FAF60E803 /* Pods_YANKit.framework */; };
+		DCD7A2CFDD7B4E2066AE4F65 /* Pods_yanInput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CABAABB53FAFCCBE2BE58 /* Pods_yanInput.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +63,27 @@
 			remoteGlobalIDString = C2C0F1171EC1AE1B00017768;
 			remoteInfo = yanToday;
 		};
+		C2F21F8E1ECC1F83000FCDB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29CE21E1EC0AEF700BB505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F21F831ECC1F83000FCDB9;
+			remoteInfo = YANKit;
+		};
+		C2F21F901ECC1F83000FCDB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29CE21E1EC0AEF700BB505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29CE2251EC0AEF700BB505C;
+			remoteInfo = yanwenzi;
+		};
+		C2F21F971ECC1F83000FCDB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29CE21E1EC0AEF700BB505C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F21F831ECC1F83000FCDB9;
+			remoteInfo = YANKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,15 +99,35 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2F21F9E1ECC1F83000FCDB9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C2F21F9A1ECC1F83000FCDB9 /* YANKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00FB99AD56775EC89E9942F3 /* Pods-YANKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YANKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YANKit/Pods-YANKit.debug.xcconfig"; sourceTree = "<group>"; };
+		02D6A1561CF1106FAF60E803 /* Pods_YANKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YANKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1708157802F22DF3D58E4D /* Pods_yanwenzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanwenzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1156EA5D89B9FD59BF98722C /* Pods_yanToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanToday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1648BC2CEF0A579EF25094D7 /* Pods-yanwenzi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenzi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenzi/Pods-yanwenzi.debug.xcconfig"; sourceTree = "<group>"; };
 		1727CD3299322F337E5819A5 /* Pods-yanwenziUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenziUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenziUITests/Pods-yanwenziUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F94FA7C018691E17934A3E5 /* Pods-YANKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YANKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-YANKit/Pods-YANKit.release.xcconfig"; sourceTree = "<group>"; };
+		326CABAABB53FAFCCBE2BE58 /* Pods_yanInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E508C3CE38F2B1C9B8B674E /* Pods-yanwenziUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenziUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenziUITests/Pods-yanwenziUITests.release.xcconfig"; sourceTree = "<group>"; };
 		42FE5AE3FFB3A94F900A4866 /* Pods-yanwenzi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenzi.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenzi/Pods-yanwenzi.release.xcconfig"; sourceTree = "<group>"; };
+		45DFF97B6A3AE6C0169B0101 /* Pods-yanToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanToday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanToday/Pods-yanToday.debug.xcconfig"; sourceTree = "<group>"; };
+		5A97BE847BDA54B8C0B61F28 /* Pods-yanInput.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanInput.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanInput/Pods-yanInput.release.xcconfig"; sourceTree = "<group>"; };
+		61756FF1EC70F749F6BD765A /* Pods-yanToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanToday.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanToday/Pods-yanToday.release.xcconfig"; sourceTree = "<group>"; };
 		6A6DB3E37BE45B503429BCB9 /* Pods_yanwenziUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanwenziUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C72C6D897FDF2CACD55DF2 /* Pods-yanInput.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanInput.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanInput/Pods-yanInput.debug.xcconfig"; sourceTree = "<group>"; };
 		A838E91A57C699BE54AF067E /* Pods-yanwenziTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenziTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenziTests/Pods-yanwenziTests.release.xcconfig"; sourceTree = "<group>"; };
 		C29CE2261EC0AEF700BB505C /* yanwenzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yanwenzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29CE2291EC0AEF700BB505C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +150,16 @@
 		C2C0F11C1EC1AE1B00017768 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		C2C0F11F1EC1AE1B00017768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		C2C0F1211EC1AE1B00017768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F21F7B1ECC1F06000FCDB9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/yanwenzi-aldzmfkitxmewkdqjdxwwyfqhtdx/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		C2F21F7D1ECC1F0C000FCDB9 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/yanwenzi-aldzmfkitxmewkdqjdxwwyfqhtdx/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
+		C2F21F841ECC1F83000FCDB9 /* YANKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YANKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F21F861ECC1F83000FCDB9 /* YANKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YANKit.h; sourceTree = "<group>"; };
+		C2F21F871ECC1F83000FCDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F21F8C1ECC1F83000FCDB9 /* YANKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YANKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F21F931ECC1F83000FCDB9 /* YANKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YANKitTests.m; sourceTree = "<group>"; };
+		C2F21F951ECC1F83000FCDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F21FA21ECC1FBE000FCDB9 /* YanNetKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YanNetKit.swift; sourceTree = "<group>"; };
+		C2F21FA61ECC3434000FCDB9 /* yanwenzi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yanwenzi.entitlements; sourceTree = "<group>"; };
 		DAE7B456873F2DA1D8538115 /* Pods-yanwenziTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yanwenziTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yanwenziTests/Pods-yanwenziTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0BECE9623BEBFA6879667B4 /* Pods_yanwenziTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yanwenziTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F21F991ECC1F83000FCDB9 /* YANKit.framework in Frameworks */,
 				D5A492AF3ACD5471E6DBE6E9 /* Pods_yanwenzi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD7A2CFDD7B4E2066AE4F65 /* Pods_yanInput.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +203,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C0F11A1EC1AE1B00017768 /* NotificationCenter.framework in Frameworks */,
+				B8F17D7546981A80AF6CB969 /* Pods_yanToday.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F21F801ECC1F83000FCDB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73EF2CD5A59685E450ED008 /* Pods_YANKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F21F891ECC1F83000FCDB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F21F8D1ECC1F83000FCDB9 /* YANKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +234,8 @@
 				C29CE2481EC0AEF700BB505C /* yanwenziUITests */,
 				C2C0F1091EC1ADE500017768 /* yanInput */,
 				C2C0F11B1EC1AE1B00017768 /* yanToday */,
+				C2F21F851ECC1F83000FCDB9 /* YANKit */,
+				C2F21F921ECC1F83000FCDB9 /* YANKitTests */,
 				C29CE2271EC0AEF700BB505C /* Products */,
 				E469E42A7E40D398F1E8866C /* Pods */,
 				FEDC49563C8CFAB44AB4298E /* Frameworks */,
@@ -169,6 +250,8 @@
 				C29CE2451EC0AEF700BB505C /* yanwenziUITests.xctest */,
 				C2C0F1081EC1ADE500017768 /* yanInput.appex */,
 				C2C0F1181EC1AE1B00017768 /* yanToday.appex */,
+				C2F21F841ECC1F83000FCDB9 /* YANKit.framework */,
+				C2F21F8C1ECC1F83000FCDB9 /* YANKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +259,7 @@
 		C29CE2281EC0AEF700BB505C /* yanwenzi */ = {
 			isa = PBXGroup;
 			children = (
+				C2F21FA61ECC3434000FCDB9 /* yanwenzi.entitlements */,
 				C29CE2291EC0AEF700BB505C /* AppDelegate.swift */,
 				C29CE22B1EC0AEF700BB505C /* ViewController.swift */,
 				C29CE22D1EC0AEF700BB505C /* Main.storyboard */,
@@ -223,6 +307,25 @@
 			path = yanToday;
 			sourceTree = "<group>";
 		};
+		C2F21F851ECC1F83000FCDB9 /* YANKit */ = {
+			isa = PBXGroup;
+			children = (
+				C2F21F861ECC1F83000FCDB9 /* YANKit.h */,
+				C2F21F871ECC1F83000FCDB9 /* Info.plist */,
+				C2F21FA21ECC1FBE000FCDB9 /* YanNetKit.swift */,
+			);
+			path = YANKit;
+			sourceTree = "<group>";
+		};
+		C2F21F921ECC1F83000FCDB9 /* YANKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F21F931ECC1F83000FCDB9 /* YANKitTests.m */,
+				C2F21F951ECC1F83000FCDB9 /* Info.plist */,
+			);
+			path = YANKitTests;
+			sourceTree = "<group>";
+		};
 		E469E42A7E40D398F1E8866C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +335,12 @@
 				A838E91A57C699BE54AF067E /* Pods-yanwenziTests.release.xcconfig */,
 				1727CD3299322F337E5819A5 /* Pods-yanwenziUITests.debug.xcconfig */,
 				3E508C3CE38F2B1C9B8B674E /* Pods-yanwenziUITests.release.xcconfig */,
+				00FB99AD56775EC89E9942F3 /* Pods-YANKit.debug.xcconfig */,
+				2F94FA7C018691E17934A3E5 /* Pods-YANKit.release.xcconfig */,
+				83C72C6D897FDF2CACD55DF2 /* Pods-yanInput.debug.xcconfig */,
+				5A97BE847BDA54B8C0B61F28 /* Pods-yanInput.release.xcconfig */,
+				45DFF97B6A3AE6C0169B0101 /* Pods-yanToday.debug.xcconfig */,
+				61756FF1EC70F749F6BD765A /* Pods-yanToday.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -239,15 +348,31 @@
 		FEDC49563C8CFAB44AB4298E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2F21F7D1ECC1F0C000FCDB9 /* SnapKit.framework */,
+				C2F21F7B1ECC1F06000FCDB9 /* Alamofire.framework */,
 				0C1708157802F22DF3D58E4D /* Pods_yanwenzi.framework */,
 				E0BECE9623BEBFA6879667B4 /* Pods_yanwenziTests.framework */,
 				6A6DB3E37BE45B503429BCB9 /* Pods_yanwenziUITests.framework */,
 				C2C0F1191EC1AE1B00017768 /* NotificationCenter.framework */,
+				02D6A1561CF1106FAF60E803 /* Pods_YANKit.framework */,
+				326CABAABB53FAFCCBE2BE58 /* Pods_yanInput.framework */,
+				1156EA5D89B9FD59BF98722C /* Pods_yanToday.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2F21F811ECC1F83000FCDB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F21F961ECC1F83000FCDB9 /* YANKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C29CE2251EC0AEF700BB505C /* yanwenzi */ = {
@@ -261,12 +386,14 @@
 				022AC4466A855CC4A7410943 /* [CP] Embed Pods Frameworks */,
 				1E4C3D5A1319808B60D37FF0 /* [CP] Copy Pods Resources */,
 				C2C0F1131EC1ADE500017768 /* Embed App Extensions */,
+				C2F21F9E1ECC1F83000FCDB9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				C2C0F10E1EC1ADE500017768 /* PBXTargetDependency */,
 				C2C0F1231EC1AE1B00017768 /* PBXTargetDependency */,
+				C2F21F981ECC1F83000FCDB9 /* PBXTargetDependency */,
 			);
 			name = yanwenzi;
 			productName = yanwenzi;
@@ -319,9 +446,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2C0F1121EC1ADE500017768 /* Build configuration list for PBXNativeTarget "yanInput" */;
 			buildPhases = (
+				FC05D9CD5AB19713A219F6FC /* [CP] Check Pods Manifest.lock */,
 				C2C0F1041EC1ADE500017768 /* Sources */,
 				C2C0F1051EC1ADE500017768 /* Frameworks */,
 				C2C0F1061EC1ADE500017768 /* Resources */,
+				DE5165B1276262F855419192 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,9 +465,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2C0F1251EC1AE1B00017768 /* Build configuration list for PBXNativeTarget "yanToday" */;
 			buildPhases = (
+				F5B0B3B5FBB0A7A89B10AF09 /* [CP] Check Pods Manifest.lock */,
 				C2C0F1141EC1AE1B00017768 /* Sources */,
 				C2C0F1151EC1AE1B00017768 /* Frameworks */,
 				C2C0F1161EC1AE1B00017768 /* Resources */,
+				0BE5BAD2389D31444A9464C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,6 +479,45 @@
 			productName = yanToday;
 			productReference = C2C0F1181EC1AE1B00017768 /* yanToday.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		C2F21F831ECC1F83000FCDB9 /* YANKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F21F9B1ECC1F83000FCDB9 /* Build configuration list for PBXNativeTarget "YANKit" */;
+			buildPhases = (
+				83ABA7ACA641531B479DA065 /* [CP] Check Pods Manifest.lock */,
+				C2F21F7F1ECC1F83000FCDB9 /* Sources */,
+				C2F21F801ECC1F83000FCDB9 /* Frameworks */,
+				C2F21F811ECC1F83000FCDB9 /* Headers */,
+				C2F21F821ECC1F83000FCDB9 /* Resources */,
+				24BB1E51D8E7B92297C2C779 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YANKit;
+			productName = YANKit;
+			productReference = C2F21F841ECC1F83000FCDB9 /* YANKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2F21F8B1ECC1F83000FCDB9 /* YANKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F21F9F1ECC1F83000FCDB9 /* Build configuration list for PBXNativeTarget "YANKitTests" */;
+			buildPhases = (
+				C2F21F881ECC1F83000FCDB9 /* Sources */,
+				C2F21F891ECC1F83000FCDB9 /* Frameworks */,
+				C2F21F8A1ECC1F83000FCDB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F21F8F1ECC1F83000FCDB9 /* PBXTargetDependency */,
+				C2F21F911ECC1F83000FCDB9 /* PBXTargetDependency */,
+			);
+			name = YANKitTests;
+			productName = YANKitTests;
+			productReference = C2F21F8C1ECC1F83000FCDB9 /* YANKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -363,6 +533,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 5G97LTLJUY;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C29CE2391EC0AEF700BB505C = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -386,6 +561,18 @@
 						DevelopmentTeam = 5G97LTLJUY;
 						ProvisioningStyle = Automatic;
 					};
+					C2F21F831ECC1F83000FCDB9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5G97LTLJUY;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					C2F21F8B1ECC1F83000FCDB9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5G97LTLJUY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C29CE2251EC0AEF700BB505C;
+					};
 				};
 			};
 			buildConfigurationList = C29CE2211EC0AEF700BB505C /* Build configuration list for PBXProject "yanwenzi" */;
@@ -406,6 +593,8 @@
 				C29CE2441EC0AEF700BB505C /* yanwenziUITests */,
 				C2C0F1071EC1ADE500017768 /* yanInput */,
 				C2C0F1171EC1AE1B00017768 /* yanToday */,
+				C2F21F831ECC1F83000FCDB9 /* YANKit */,
+				C2F21F8B1ECC1F83000FCDB9 /* YANKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -450,6 +639,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2F21F821ECC1F83000FCDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F21F8A1ECC1F83000FCDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -483,6 +686,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanwenziTests/Pods-yanwenziTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		0BE5BAD2389D31444A9464C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanToday/Pods-yanToday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1E4C3D5A1319808B60D37FF0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -498,7 +716,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanwenzi/Pods-yanwenzi-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		24BB1E51D8E7B92297C2C779 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YANKit/Pods-YANKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		55418BB5EB42C2BEE82C94CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83ABA7ACA641531B479DA065 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -573,6 +821,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanwenziTests/Pods-yanwenziTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DE5165B1276262F855419192 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yanInput/Pods-yanInput-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B0B3B5FBB0A7A89B10AF09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC05D9CD5AB19713A219F6FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		FE04D051B5A14BD5AB64354B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -632,6 +925,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2F21F7F1ECC1F83000FCDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F21FA31ECC1FBE000FCDB9 /* YanNetKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F21F881ECC1F83000FCDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F21F941ECC1F83000FCDB9 /* YANKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -654,6 +963,21 @@
 			isa = PBXTargetDependency;
 			target = C2C0F1171EC1AE1B00017768 /* yanToday */;
 			targetProxy = C2C0F1221EC1AE1B00017768 /* PBXContainerItemProxy */;
+		};
+		C2F21F8F1ECC1F83000FCDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F21F831ECC1F83000FCDB9 /* YANKit */;
+			targetProxy = C2F21F8E1ECC1F83000FCDB9 /* PBXContainerItemProxy */;
+		};
+		C2F21F911ECC1F83000FCDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C29CE2251EC0AEF700BB505C /* yanwenzi */;
+			targetProxy = C2F21F901ECC1F83000FCDB9 /* PBXContainerItemProxy */;
+		};
+		C2F21F981ECC1F83000FCDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F21F831ECC1F83000FCDB9 /* YANKit */;
+			targetProxy = C2F21F971ECC1F83000FCDB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -786,6 +1110,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = yanwenzi/yanwenzi.entitlements;
 				DEVELOPMENT_TEAM = 5G97LTLJUY;
 				INFOPLIST_FILE = yanwenzi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -801,6 +1126,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = yanwenzi/yanwenzi.entitlements;
 				DEVELOPMENT_TEAM = 5G97LTLJUY;
 				INFOPLIST_FILE = yanwenzi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -874,6 +1200,7 @@
 		};
 		C2C0F1101EC1ADE500017768 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C72C6D897FDF2CACD55DF2 /* Pods-yanInput.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5G97LTLJUY;
 				INFOPLIST_FILE = yanInput/Info.plist;
@@ -887,6 +1214,7 @@
 		};
 		C2C0F1111EC1ADE500017768 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A97BE847BDA54B8C0B61F28 /* Pods-yanInput.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5G97LTLJUY;
 				INFOPLIST_FILE = yanInput/Info.plist;
@@ -900,6 +1228,7 @@
 		};
 		C2C0F1261EC1AE1B00017768 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45DFF97B6A3AE6C0169B0101 /* Pods-yanToday.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5G97LTLJUY;
 				INFOPLIST_FILE = yanToday/Info.plist;
@@ -913,6 +1242,7 @@
 		};
 		C2C0F1271EC1AE1B00017768 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61756FF1EC70F749F6BD765A /* Pods-yanToday.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5G97LTLJUY;
 				INFOPLIST_FILE = yanToday/Info.plist;
@@ -921,6 +1251,81 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C2F21F9C1ECC1F83000FCDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FB99AD56775EC89E9942F3 /* Pods-YANKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YANKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.YANKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2F21F9D1ECC1F83000FCDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F94FA7C018691E17934A3E5 /* Pods-YANKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YANKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.YANKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2F21FA01ECC1F83000FCDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = YANKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.YANKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yanwenzi.app/yanwenzi";
+			};
+			name = Debug;
+		};
+		C2F21FA11ECC1F83000FCDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5G97LTLJUY;
+				INFOPLIST_FILE = YANKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QX.YANKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yanwenzi.app/yanwenzi";
 			};
 			name = Release;
 		};
@@ -970,6 +1375,7 @@
 				C2C0F1111EC1ADE500017768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2C0F1251EC1AE1B00017768 /* Build configuration list for PBXNativeTarget "yanToday" */ = {
 			isa = XCConfigurationList;
@@ -978,6 +1384,25 @@
 				C2C0F1271EC1AE1B00017768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F21F9B1ECC1F83000FCDB9 /* Build configuration list for PBXNativeTarget "YANKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F21F9C1ECC1F83000FCDB9 /* Debug */,
+				C2F21F9D1ECC1F83000FCDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F21F9F1ECC1F83000FCDB9 /* Build configuration list for PBXNativeTarget "YANKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F21FA01ECC1F83000FCDB9 /* Debug */,
+				C2F21FA11ECC1F83000FCDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

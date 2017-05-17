@@ -8,43 +8,46 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+		</dict>
+		<key>Pods-YANKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-yanInput.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-yanToday.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-yanwenzi.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-yanwenziTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-yanwenziUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>RxSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -54,12 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>414BC1073C6EE3E00DB9F21231B775DE</key>
+		<key>879F2E6C7AAE80450148DB80FCE20A40</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>470708B670ADFCC744FFCCAEF07CD239</key>
+		<key>87A7A4AB6BDFAD6DF5E5917FA6A25BD9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -74,7 +77,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>D0C956D01898090C03F484C25546193A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D777CA46D69F0AFAFF880E603638BEF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D9EB9FB10C0EE93600F1336A2D14574B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA4E70174FDF9FB17F001AF1FDD5FA4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

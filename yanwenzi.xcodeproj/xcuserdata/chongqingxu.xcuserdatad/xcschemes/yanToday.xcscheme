@@ -43,13 +43,23 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2F21F8B1ECC1F83000FCDB9"
+               BuildableName = "YANKitTests.xctest"
+               BlueprintName = "YANKitTests"
+               ReferencedContainer = "container:yanwenzi.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C2C0F1171EC1AE1B00017768"
-            BuildableName = "yanToday.appex"
-            BlueprintName = "yanToday"
+            BlueprintIdentifier = "C29CE2251EC0AEF700BB505C"
+            BuildableName = "yanwenzi.app"
+            BlueprintName = "yanwenzi"
             ReferencedContainer = "container:yanwenzi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

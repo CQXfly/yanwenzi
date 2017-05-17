@@ -48,6 +48,16 @@
                ReferencedContainer = "container:yanwenzi.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2F21F8B1ECC1F83000FCDB9"
+               BuildableName = "YANKitTests.xctest"
+               BlueprintName = "YANKitTests"
+               ReferencedContainer = "container:yanwenzi.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
